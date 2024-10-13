@@ -54,7 +54,7 @@ function Experience() {
                 <p className="qualification_description"> CGPA: 8 </p>{" "}
                 <div className="qualification_date">
                   <i class="uil uil-calendar-alt"> </i>
-                  2015{" "}
+                  2016{" "}
                 </div>{" "}
               </div>
               <div>
@@ -77,7 +77,7 @@ function Experience() {
                 <p className="qualification_description"> Percentage: 76.8 </p>{" "}
                 <div className="qualification_date">
                   <i class="uil uil-calendar-alt"> </i>
-                  2017{" "}
+                  2018{" "}
                 </div>{" "}
               </div>{" "}
             </div>
