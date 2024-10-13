@@ -1,0 +1,86 @@
+.skills_container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  position: relative;
+  justify-content: center;
+  gap: 3.5rem;
+  width: 70%;
+  margin: auto;
+  /* background-color: var(--container-color); */
+  padding: 2rem;
+  border-radius: 5rem;
+}
+
+.skills_blob {
+  position: absolute;
+  opacity: 1;
+  z-index: -5;
+  width: 250px;
+  height: 200px;
+  top: 30%;
+  left: 30%;
+  animation: blobAnimate3d 8s linear infinite;
+}
+
+@keyframes blobAnimate3d {
+  50% {
+    top: 54%;
+    left: 46%;
+  }
+  75% {
+    top: 35%;
+    left: 46%;
+  }
+}
+
+@keyframes blobAnimate2d {
+  50% {
+    top: 54%;
+    left: 46%;
+  }
+}
+
+.skillset_icon {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.skillset_icon_name {
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+.skillset_icon_img {
+  width: 80px;
+  height: 80px;
+  transition: all 0.5s;
+}
+
+.skillset_icon_img:hover {
+  transform: scale(1.2);
+}
+
+/*=========================== BREAKPOINTS  ====================*/
+
+@media screen and (max-width: 576px) {
+  .skills_blob {
+    display: none;
+  }
+  .skillset_icon_img {
+    width: 70px;
+    transition: all 0.5s;
+  }
+}
+
+/*Small Devices*/
+
+@media screen and (max-width: 350px) {
+  .skillset_icon_img {
+    width: 50px;
+    transition: all 0.5s;
+  }
+}
