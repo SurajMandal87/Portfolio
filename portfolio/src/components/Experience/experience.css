@@ -89,7 +89,7 @@
   height: 100%;
   display: inline-block;
   background-color: var(--text-color);
-  transform: translate(-5px, -7px);
+  transform: translate(-10px, -7px);
 }
 
 /*=========================== BREAKPOINTS  ====================*/

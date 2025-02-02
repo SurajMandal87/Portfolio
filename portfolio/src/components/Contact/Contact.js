@@ -37,7 +37,7 @@ function Contact() {
       errors.name = "Enter your name!";
     } else if (!nameRegex.test(values.name)) {
       SetFocus(nameRef);
-      errors.name = "Name cant contain Numbers or Special Character";
+      errors.name = "Name can't contain Numbers or Special Character";
     }
 
     //validation on email
@@ -75,10 +75,10 @@ function Contact() {
     //send the mail and await its completion
     await emailjs
       .sendForm(
-        "service_il71cfe",
-        "template_seutbjn",
+        "sservice_ed5oqtp",
+        "template_3ykngkh",
         form.current,
-        "gCz9MsNteT1q90UGu"
+        "He0n7OJ43yVcWIOmU"
       )
       .then(
         () => {
