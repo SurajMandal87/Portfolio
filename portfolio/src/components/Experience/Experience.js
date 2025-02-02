@@ -51,7 +51,7 @@ function Experience() {
                   DAV Public School{" "}
                 </h3>{" "}
                 <span className="qualification_subtitle"> Class X </span>{" "}
-                <p className="qualification_description"> CGPA: 8 </p>{" "}
+                <p className="qualification_description"> CGPA: 10 </p>{" "}
                 <div className="qualification_date">
                   <i class="uil uil-calendar-alt"> </i>
                   2016{" "}
@@ -117,13 +117,13 @@ function Experience() {
               <div>
                 <h3 className="qualification_title">
                   {" "}
-                  Airport Authority of India{" "}
+                  Amadeus Labs{" "}
                 </h3>{" "}
                 <span className="qualification_subtitle"> Intern </span>{" "}
-                <p className="qualification_description"> CNS Dept </p>{" "}
+                <p className="qualification_description"> SDE </p>{" "}
                 <div className="qualification_date">
                   <i class="uil uil-calendar-alt"> </i>
-                  December 2020{" "}
+                  Feb 2023-Dec 2023{" "}
                 </div>{" "}
               </div>
               <div>
@@ -142,19 +142,19 @@ function Experience() {
               <div>
                 <h3 className="qualification_title">
                   {" "}
-                  Nokia Solutions and Network{" "}
+                  Amadeus Labs{" "}
                 </h3>{" "}
                 <span className="qualification_subtitle">
                   {" "}
-                  Software Engineer{" "}
+                  Software Engineer Developer{" "}
                 </span>{" "}
                 <p className="qualification_description">
                   {" "}
-                  Global Services{" "}
+                  Frontend Developer{" "}
                 </p>{" "}
                 <div className="qualification_date">
                   <i class="uil uil-calendar-alt"> </i>
-                  2021 - Present{" "}
+                  2024 - Present{" "}
                 </div>{" "}
               </div>
             </div>{" "}

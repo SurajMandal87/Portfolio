@@ -89,6 +89,11 @@ const data = [
     name: "Git",
     src: require("../../assets/Git.png"),
   },
+  {
+    id: 19,
+    name: "Kubernetes",
+    src: require("../../assets/Kubernetes.png"),
+  },
 ];
 
 export default data;
